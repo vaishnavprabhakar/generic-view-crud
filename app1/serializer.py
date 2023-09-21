@@ -35,7 +35,7 @@ class PollSerializer(serializers.Serializer):
             desc = validated_data.get('desc'),
             created_at = validated_data.get('created_at')
         )
-        return poll
+        
     
     def update(self, instance, validated_data):
 
